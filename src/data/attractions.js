@@ -1,0 +1,93 @@
+export const attractions = [
+  {
+    id: 1,
+    name: "바나 힐스",
+    description: "프랑스 식민지 시대의 분위기가 남아있는 산악 리조트로, 세계에서 가장 긴 케이블카를 타고 갈 수 있습니다. 골든 브릿지, 프랑스 마을, 판타지 파크 등 다양한 볼거리가 있습니다.",
+    address: "An Son, Hoa Ninh, Hoa Vang District, Da Nang, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/XJJJ8JqeZgCJr7Lz6",
+    features: ["케이블카", "골든 브릿지", "테마파크", "전망대"],
+    price: "₫₫₫",
+    rating: 4.7,
+    openHours: "매일 07:00 - 22:00",
+    image: "/images/attractions/bana-hills.jpg",
+    visitDuration: "1일"
+  },
+  {
+    id: 2,
+    name: "미케 해변",
+    description: "다낭에서 가장 유명한 해변으로, 깨끗한 백사장과 푸른 바다가 특징입니다. 해수욕과 다양한 수상 스포츠를 즐길 수 있습니다.",
+    address: "Hoang Sa Street, Son Tra District, Da Nang, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/B3D3qyZq9i1gW9rK9",
+    features: ["해변", "수상 스포츠", "일출 명소", "해변 카페"],
+    price: "무료",
+    rating: 4.5,
+    openHours: "24시간",
+    image: "/images/attractions/my-khe-beach.jpg",
+    visitDuration: "3-4시간"
+  },
+  {
+    id: 3,
+    name: "마블 마운틴",
+    description: "다낭 근교에 위치한 5개의 석회암 산으로 이루어진 종교 유적지입니다. 동굴과 사원, 불교 조각품을 볼 수 있으며 도시의 아름다운 전망도 감상할 수 있습니다.",
+    address: "Hoa Hai, Ngu Hanh Son District, Da Nang, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/4zodrYzQP7VpgCBF9",
+    features: ["동굴", "사원", "전망대", "석재 공예"],
+    price: "₫",
+    rating: 4.6,
+    openHours: "매일 07:00 - 17:30",
+    image: "/images/attractions/marble-mountain.jpg",
+    visitDuration: "2-3시간"
+  },
+  {
+    id: 4,
+    name: "손짜 반도",
+    description: "다낭의 아름다운 자연 경관을 감상할 수 있는 반도로, 레이디 부처 상이 있으며 희귀한 원숭이 종이 서식하는 국립공원이 있습니다.",
+    address: "Son Tra Peninsula, Son Tra District, Da Nang, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/M8Ar3d9zDYmwVXQR7",
+    features: ["자연 경관", "레이디 부처 상", "국립공원", "원숭이 관찰"],
+    price: "무료~₫",
+    rating: 4.8,
+    openHours: "24시간 (레이디 부처 상: 07:00 - 17:30)",
+    image: "/images/attractions/son-tra.jpg",
+    visitDuration: "반일~1일"
+  },
+  {
+    id: 5,
+    name: "다낭 드래곤 브릿지",
+    description: "한강을 가로지르는 용 모양의 다리로, 주말 밤에는 화염과 물을 뿜는 쇼가 펼쳐집니다. 다낭의 랜드마크 중 하나입니다.",
+    address: "Dragon Bridge, Da Nang, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/Vq1WTCqT3A8zvMPF7",
+    features: ["용 모양 다리", "야간 조명", "화염 쇼(주말)", "사진 명소"],
+    price: "무료",
+    rating: 4.6,
+    openHours: "24시간 (화염 쇼: 토, 일 21:00)",
+    image: "/images/attractions/dragon-bridge.jpg",
+    visitDuration: "30분 (쇼 관람 시 1시간)"
+  },
+  {
+    id: 6,
+    name: "참 박물관",
+    description: "참파 왕국의 유물과 조각품을 전시하는 박물관으로, 다낭의 역사와 문화를 이해하는 데 좋은 장소입니다.",
+    address: "2 September 2 Street, Hai Chau District, Da Nang, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/7ZdTFLQ6AcNtXdAq9",
+    features: ["역사 박물관", "참파 문화", "조각품", "교육적"],
+    price: "₫",
+    rating: 4.3,
+    openHours: "화-일 07:30 - 17:30",
+    image: "/images/attractions/cham-museum.jpg",
+    visitDuration: "1-2시간"
+  },
+  {
+    id: 7,
+    name: "호이안 고대도시",
+    description: "다낭에서 차로 약 30분 거리에 위치한 유네스코 세계문화유산으로 지정된 고대 무역 항구 도시입니다. 전통 가옥, 일본 다리, 중국 사원 등 볼거리가 많습니다.",
+    address: "Hoi An Ancient Town, Quang Nam Province, Vietnam",
+    googleMapUrl: "https://goo.gl/maps/aMNFETuaLLHkvKsK6",
+    features: ["UNESCO 세계문화유산", "전통 가옥", "야경", "쇼핑"],
+    price: "₫₫",
+    rating: 4.9,
+    openHours: "티켓 필요 지역: 08:00 - 21:00",
+    image: "/images/attractions/hoi-an.jpg",
+    visitDuration: "1일"
+  }
+]; 
