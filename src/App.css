@@ -106,6 +106,22 @@ a:hover {
   width: 100%;
 }
 
+.language-toggle button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+}
+
+.language-toggle button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
 .main-content {
   flex: 1;
   max-width: 1200px;
@@ -318,6 +334,12 @@ h3 {
 
   .main-nav ul {
     gap: var(--spacing-sm);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .language-toggle {
+    margin-top: 10px;
   }
 
   .slider-container {
