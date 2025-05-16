@@ -311,7 +311,9 @@ h3 {
 }
 
 .attraction-card,
-.tip-card {
+.tip-card,
+.restaurant-card,
+.cafe-card {
   background-color: var(--card-bg-color);
   border-radius: var(--border-radius);
   padding: var(--spacing-md);
@@ -320,9 +322,26 @@ h3 {
 }
 
 .attraction-card:hover,
-.tip-card:hover {
+.tip-card:hover,
+.restaurant-card:hover,
+.cafe-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-lg);
+}
+
+.address {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.restaurants-section,
+.cafes-section {
+  background-color: rgba(240, 240, 240, 0.3);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
 }
 
 /* Responsive */

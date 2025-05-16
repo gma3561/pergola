@@ -19,6 +19,8 @@ function App() {
         hotel: "호텔 정보",
         facilities: "편의시설",
         nearby: "주변 관광",
+        restaurants: "맛집",
+        cafes: "카페",
         tips: "여행 팁"
       },
       heroTitle: "페르골라 호텔",
@@ -47,6 +49,67 @@ function App() {
           description: "대리석 산으로 불리며 다양한 동굴과 사원이 있는 명소입니다. 호텔에서 차로 약 20분 거리에 있습니다."
         }
       },
+      restaurants: {
+        title: "추천 맛집",
+        local1: {
+          name: "Banh Canh Cua",
+          description: "베트남 게와 새우를 넣은 쌀국수. 현지식을 즐기고 싶은 분들에게 추천합니다.",
+          address: "B13, 2/9 street, Da Nang"
+        },
+        local2: {
+          name: "Hai San Thanh Map",
+          description: "해변 전망이 좋은 현지 해산물 레스토랑. 신선한 해산물 요리를 즐길 수 있습니다.",
+          address: "37 Hoang Sa street, Tho Quang Ward, Son Tra district"
+        },
+        local3: {
+          name: "Hai San Phuoc My",
+          description: "정원 분위기의 해산물 레스토랑. 아늑한 분위기에서 맛있는 해산물을 맛볼 수 있습니다.",
+          address: "18 Ho Nghinh street"
+        },
+        local4: {
+          name: "Bếp Cuốn Đà Nẵng",
+          description: "베트남 전통 요리를 맛볼 수 있는 현지 레스토랑.",
+          address: "31-33 Trần Bạch Đằng, Phước Mỹ, Sơn Trà"
+        },
+        local5: {
+          name: "Cơm Nhà Vui",
+          description: "베트남 가정식을 맛볼 수 있는 현지 식당.",
+          address: "133 Hà Bổng, Sơn Trà"
+        }
+      },
+      cafes: {
+        title: "인스타그래머블 카페",
+        cafe1: {
+          name: "Wind Garden",
+          description: "정원과 코이 물고기가 있는 아름다운 카페. 사진 찍기 좋은 장소입니다.",
+          address: "72 Lê Mạnh Trinh street"
+        },
+        cafe2: {
+          name: "Cá Chuồn Space",
+          description: "해변 전망이 좋은 카페. 멋진 바다 뷰를 즐기며 커피를 마실 수 있습니다.",
+          address: "Da Nang 해변가"
+        },
+        cafe3: {
+          name: "Nối - The cabin",
+          description: "해변이 보이는 모던한 카페. 아늑한 분위기와 멋진 전망이 특징입니다.",
+          address: "118 Chu Huy Mân, Nại Hiên Đông, Sơn Trà"
+        },
+        cafe4: {
+          name: "Lighthouse",
+          description: "직접 로스팅한 커피와 다이닝을 함께 즐길 수 있는 카페.",
+          address: "12 Dương Đình Nghệ, Phường An Hải Bắc, Quận Sơn Trà"
+        },
+        cafe5: {
+          name: "Bloom Patisserie",
+          description: "훌륭한 디저트와 페이스트리를 맛볼 수 있는 카페.",
+          address: "189 Tran Hung Dao street, An Hai Bac ward, Son Tra district"
+        },
+        cafe6: {
+          name: "B&B Bakery",
+          description: "맛있는 베이커리 제품을 판매하는 카페.",
+          address: "192 Nguyen Van Thoai street"
+        }
+      },
       tips: {
         title: "여행 팁",
         bestSeason: {
@@ -73,6 +136,8 @@ function App() {
         hotel: "Hotel Info",
         facilities: "Facilities",
         nearby: "Nearby",
+        restaurants: "Restaurants",
+        cafes: "Cafes",
         tips: "Travel Tips"
       },
       heroTitle: "Pergola Hotel",
@@ -99,6 +164,67 @@ function App() {
         marbleMountain: {
           name: "Marble Mountains",
           description: "Known as the marble mountains with various caves and temples. About 20 minutes by car from the hotel."
+        }
+      },
+      restaurants: {
+        title: "Recommended Restaurants",
+        local1: {
+          name: "Banh Canh Cua",
+          description: "Vietnamese crab and shrimp tapioca noodle soup. Recommended for those who want to enjoy local cuisine.",
+          address: "B13, 2/9 street, Da Nang"
+        },
+        local2: {
+          name: "Hai San Thanh Map",
+          description: "Local seafood restaurant with a beach view. Enjoy fresh seafood dishes.",
+          address: "37 Hoang Sa street, Tho Quang Ward, Son Tra district"
+        },
+        local3: {
+          name: "Hai San Phuoc My",
+          description: "Garden atmosphere seafood restaurant. Taste delicious seafood in a cozy environment.",
+          address: "18 Ho Nghinh street"
+        },
+        local4: {
+          name: "Bếp Cuốn Đà Nẵng",
+          description: "Local restaurant with traditional Vietnamese cuisine.",
+          address: "31-33 Trần Bạch Đằng, Phước Mỹ, Sơn Trà"
+        },
+        local5: {
+          name: "Cơm Nhà Vui",
+          description: "Local restaurant serving Vietnamese home-style meals.",
+          address: "133 Hà Bổng, Sơn Trà"
+        }
+      },
+      cafes: {
+        title: "Instagrammable Cafes",
+        cafe1: {
+          name: "Wind Garden",
+          description: "Beautiful cafe with a garden and koi fish. Great spot for taking photos.",
+          address: "72 Lê Mạnh Trinh street"
+        },
+        cafe2: {
+          name: "Cá Chuồn Space",
+          description: "Cafe with a beach view. Enjoy coffee with a spectacular sea view.",
+          address: "Da Nang beachfront"
+        },
+        cafe3: {
+          name: "Nối - The cabin",
+          description: "Modern cafe with a beach view. Features a cozy atmosphere and great scenery.",
+          address: "118 Chu Huy Mân, Nại Hiên Đông, Sơn Trà"
+        },
+        cafe4: {
+          name: "Lighthouse",
+          description: "Coffee roaster and dining cafe where you can enjoy freshly roasted coffee.",
+          address: "12 Dương Đình Nghệ, Phường An Hải Bắc, Quận Sơn Trà"
+        },
+        cafe5: {
+          name: "Bloom Patisserie",
+          description: "Cafe with excellent desserts and pastries.",
+          address: "189 Tran Hung Dao street, An Hai Bac ward, Son Tra district"
+        },
+        cafe6: {
+          name: "B&B Bakery",
+          description: "Cafe selling delicious bakery products.",
+          address: "192 Nguyen Van Thoai street"
         }
       },
       tips: {
@@ -153,6 +279,8 @@ function App() {
               <li><a href="#hotel">{t.nav.hotel}</a></li>
               <li><a href="#facilities">{t.nav.facilities}</a></li>
               <li><a href="#nearby">{t.nav.nearby}</a></li>
+              <li><a href="#restaurants">{t.nav.restaurants}</a></li>
+              <li><a href="#cafes">{t.nav.cafes}</a></li>
               <li><a href="#tips">{t.nav.tips}</a></li>
               <li className="language-toggle">
                 <button onClick={toggleLanguage}>
@@ -235,6 +363,73 @@ function App() {
           </div>
         </section>
         
+        <section className="restaurants-section" id="restaurants">
+          <h2>{t.restaurants.title}</h2>
+          <div className="section-content">
+            <div className="restaurant-card">
+              <h3>{t.restaurants.local1.name}</h3>
+              <p>{t.restaurants.local1.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.restaurants.local1.address}</p>
+            </div>
+            <div className="restaurant-card">
+              <h3>{t.restaurants.local2.name}</h3>
+              <p>{t.restaurants.local2.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.restaurants.local2.address}</p>
+            </div>
+            <div className="restaurant-card">
+              <h3>{t.restaurants.local3.name}</h3>
+              <p>{t.restaurants.local3.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.restaurants.local3.address}</p>
+            </div>
+            <div className="restaurant-card">
+              <h3>{t.restaurants.local4.name}</h3>
+              <p>{t.restaurants.local4.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.restaurants.local4.address}</p>
+            </div>
+            <div className="restaurant-card">
+              <h3>{t.restaurants.local5.name}</h3>
+              <p>{t.restaurants.local5.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.restaurants.local5.address}</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="cafes-section" id="cafes">
+          <h2>{t.cafes.title}</h2>
+          <div className="section-content">
+            <div className="cafe-card">
+              <h3>{t.cafes.cafe1.name}</h3>
+              <p>{t.cafes.cafe1.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.cafes.cafe1.address}</p>
+            </div>
+            <div className="cafe-card">
+              <h3>{t.cafes.cafe2.name}</h3>
+              <p>{t.cafes.cafe2.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.cafes.cafe2.address}</p>
+            </div>
+            <div className="cafe-card">
+              <h3>{t.cafes.cafe3.name}</h3>
+              <p>{t.cafes.cafe3.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.cafes.cafe3.address}</p>
+            </div>
+            <div className="cafe-card">
+              <h3>{t.cafes.cafe4.name}</h3>
+              <p>{t.cafes.cafe4.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.cafes.cafe4.address}</p>
+            </div>
+            <div className="cafe-card">
+              <h3>{t.cafes.cafe5.name}</h3>
+              <p>{t.cafes.cafe5.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.cafes.cafe5.address}</p>
+            </div>
+            <div className="cafe-card">
+              <h3>{t.cafes.cafe6.name}</h3>
+              <p>{t.cafes.cafe6.description}</p>
+              <p className="address"><strong>{language === 'ko' ? '주소' : 'Address'}:</strong> {t.cafes.cafe6.address}</p>
+            </div>
+          </div>
+        </section>
+
         <section className="tips-section" id="tips">
           <h2>{t.tips.title}</h2>
           <div className="tips-content">
